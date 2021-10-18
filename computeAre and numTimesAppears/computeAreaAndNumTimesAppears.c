@@ -28,7 +28,7 @@ extern float computeArea(int *v1, int *v2, int shape) ;
 extern int numTimesAppears(char *, char) ;
 void main(void) {
 int i;
-char mystring[100]=&quot;Yusuf Ozturk&quot;;
+char mystring[100]="Yusuf Ozturk";
 char ch;
 float area;
 int length, height, diameter, base, side1, side2;
