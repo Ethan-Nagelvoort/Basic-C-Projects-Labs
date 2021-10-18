@@ -12,12 +12,10 @@
 File : main.c
 Purpose : Generic application start
 */
-#include &lt;stdio.h&gt;
-#include &lt;stdlib.h&gt;
-#include &lt;math.h&gt;
-#include &lt;string.h&gt;
-
-ETHAN NAGELVOORT, 821234668 [HOMEWORK #1]
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#include <string.h>
 
 /*********************************************************************
 *
@@ -41,19 +39,17 @@ height = 10;
 diameter = 5;
 side1 = 2;
 side2=4;
-area = computeArea(&amp;base, &amp;height, 1);
-printf(&quot;\nThe area of the triangle is %f&quot;, area);
-area = computeArea(&amp;diameter, &amp;diameter,3);
-printf(&quot;\nThe area of a circle is %f&quot;, area);
-area = computeArea(&amp;side1, &amp;side2, 2);
-printf(&quot;\nThe area of a square/rectangle is %f&quot;, area);
+area = computeArea(&base, &height, 1);
+printf("\nThe area of the triangle is %f", area);
+area = computeArea(&diameter, &diameter,3);
+printf("\nThe area of a circle is %f", area);
+area = computeArea(&side1, &side2, 2);
+printf("\nThe area of a square/rectangle is %f", area);
 
-ch = &#39;u&#39;;
+ch = "u";
 count = numTimesAppears(mystring, ch);
-printf(&quot;\n Number of times %c appears in string is %d&quot;, ch, count);
+printf("\n Number of times %c appears in string is %d", ch, count);
 }
-
-ETHAN NAGELVOORT, 821234668 [HOMEWORK #1]
 
 float computeArea (int *v1, int *v2, int shape)
 { float areaComputed;
