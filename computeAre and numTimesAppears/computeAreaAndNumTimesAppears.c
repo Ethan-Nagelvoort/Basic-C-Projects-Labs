@@ -73,7 +73,7 @@ int numTimesAppears(char *mystring, char ch)
 {
 int i;
 int count=0;
-for(i=0;i&lt;strlen(mystring);i++)
+for(i=0;strlen(mystring);i++)
 {
 if(ch==mystring[i])
 {
